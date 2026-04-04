@@ -1,0 +1,98 @@
+/* src/components/ui/FloatingBackground.css */
+.floating-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background: linear-gradient(135deg, #0d0d0d 0%, #1a1a2e 50%, #0d0d0d 100%);
+}
+
+.floating-element {
+  position: absolute;
+  color: rgba(0, 176, 123, 0.4); /* Aumentado de 0.15 a 0.4 */
+  font-family: "poppins-light", sans-serif;
+  font-weight: 300;
+  animation: float infinite ease-in-out;
+  user-select: none;
+  pointer-events: none;
+  text-shadow: 0 0 30px rgba(0, 176, 123, 0.6); /* Más brillo */
+  font-weight: 500;
+}
+
+.floating-element.large {
+  font-size: 6rem; /* Aumentado de 4rem */
+  opacity: 0.25; /* Aumentado de 0.1 */
+}
+
+.floating-element.medium {
+  font-size: 4rem; /* Aumentado de 2.5rem */
+  opacity: 0.3; /* Aumentado de 0.12 */
+}
+
+.floating-element.small {
+  font-size: 2.5rem; /* Aumentado de 1.5rem */
+  opacity: 0.35; /* Aumentado de 0.15 */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(100vh) rotate(0deg) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.35; /* Más visible desde el inicio */
+  }
+  50% {
+    transform: translateY(-20vh) rotate(180deg) scale(1.3);
+    opacity: 0.4; /* Máxima visibilidad en el medio */
+  }
+  90% {
+    opacity: 0.3;
+  }
+}
+
+/* Efecto de brillo de fondo más visible */
+.floating-background::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 176, 123, 0.15) 0%, /* Aumentado de 0.05 a 0.15 */
+    transparent 70%
+  );
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.2); /* Más expansión */
+    opacity: 1; /* Más visible */
+  }
+}
+
+/* Agregar un segundo efecto de brillo */
+.floating-background::after {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -30%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 176, 123, 0.1) 0%,
+    transparent 60%
+  );
+  animation: pulse 10s ease-in-out infinite reverse;
+}
