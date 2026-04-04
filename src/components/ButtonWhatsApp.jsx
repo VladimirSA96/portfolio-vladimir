@@ -4,7 +4,7 @@ const ButtonWhatsApp = () => {
   return (
     <a
       href="https://wa.me/51923450859?text=Quiero%20hacer%20una%20consulta"
-      class="whatsapp"
+      className="whatsapp"
       target="_blank"
     >
       {" "}

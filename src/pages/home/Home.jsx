@@ -55,16 +55,13 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://github.com/vladi965">
+                <a target="_blank" href="https://github.com/VladimirSA96">
                   <img src={iconGithub} alt="imagen de Github" />
                   Mi Github
                 </a>
               </li>
             </ul>
           </div>
-         
-
-
         </div>
       </header>
     </div>
