@@ -1909,14 +1909,13 @@ ul#nav li a:active {
 /* --------------------------------------------------------------
    4. RESPONSIVE DESIGN
    -------------------------------------------------------------- */
-
 /* Tablet (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .content-nav {
     display: block;
   }
   .content-image {
-    left: 25px;
+    left: 35px;
   }
   header .banner-text {
     margin-top: 3rem;
@@ -1950,7 +1949,8 @@ ul#nav li a:active {
     margin: 0 8px;
   }
   .skillContainer {
-    margin-top: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
   }
   .skillContainer h2 {
     font-size: 37px;
@@ -1970,9 +1970,8 @@ ul#nav li a:active {
     bottom: 45px;
     right: 30px;
   }
-
   #about {
-    margin: 0 10px;
+    margin: 0 15px;
   }
   #about .about-item {
     width: 93%;
@@ -2002,9 +2001,8 @@ ul#nav li a:active {
   #about .about-perfil {
     width: 235px;
   }
-
   #experience {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2036,7 +2034,6 @@ ul#nav li a:active {
   #experience .tech-badge {
     gap: 8px;
   }
-
   #portfolio {
     margin: 0 10px;
     padding-top: 2.9rem;
@@ -2080,7 +2077,6 @@ ul#nav li a:active {
   #portfolio .tech-list {
     justify-content: center;
   }
-
   #contact {
     margin: 0 10px;
     padding-top: 2.9rem;
@@ -2128,7 +2124,7 @@ ul#nav li a:active {
     justify-content: space-around;
   }
   .content-image {
-    left: 5px;
+    left: 15px;
   }
   header .banner-text {
     margin-top: 3rem;
@@ -2160,11 +2156,13 @@ ul#nav li a:active {
     margin: 0 8px;
   }
   .skillContainer {
-    margin-top: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
   }
   .skillContainer h2 {
     font-size: 28px;
     margin-bottom: 15px;
+    margin-top: 15px;
   }
   #nav-skill {
     gap: 10px;
@@ -2173,16 +2171,15 @@ ul#nav li a:active {
     padding: 8px 12px;
   }
   #nav-skill li img {
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
   }
   .whatsapp {
     bottom: 70px;
     right: 20px;
   }
-
   #about {
-    margin: 0 10px;
+    margin: 0 15px;
   }
   #about .about-item {
     width: 100%;
@@ -2212,9 +2209,8 @@ ul#nav li a:active {
   #about .about-perfil {
     width: 200px;
   }
-
   #experience {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2236,6 +2232,9 @@ ul#nav li a:active {
   #experience .experience-card {
     padding: 20px;
   }
+  #experience .experience-card:hover {
+    transform: translateX(0px);
+  }
   #experience .experience-box-info h3 {
     font-size: 18px;
   }
@@ -2243,9 +2242,8 @@ ul#nav li a:active {
     font-size: 11px;
     padding: 5px 10px;
   }
-
   #portfolio {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2257,7 +2255,7 @@ ul#nav li a:active {
   }
   #portfolio .portfolio-info {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 1rem;
+    padding-left: 0rem;
     padding-bottom: 1rem;
   }
   #portfolio .portfolio-content-title {
@@ -2285,9 +2283,8 @@ ul#nav li a:active {
   #portfolio .tech-item span {
     font-size: 12px;
   }
-
   #contact {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2328,7 +2325,7 @@ ul#nav li a:active {
     justify-content: space-around;
   }
   .content-image {
-    left: 5px;
+    left: 13px;
   }
   header .banner-text {
     margin-top: 3rem;
@@ -2361,6 +2358,7 @@ ul#nav li a:active {
   }
   .skillContainer {
     margin-top: 0rem;
+    margin-bottom: 5rem;
   }
   .skillContainer h2 {
     font-size: 28px;
@@ -2370,9 +2368,8 @@ ul#nav li a:active {
     bottom: 70px;
     right: 20px;
   }
-
   #about {
-    margin: 0 10px;
+    margin: 0 15px;
   }
   #about .about-item {
     width: 100%;
@@ -2402,9 +2399,8 @@ ul#nav li a:active {
   #about .about-perfil {
     width: 200px;
   }
-
   #experience {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2412,7 +2408,7 @@ ul#nav li a:active {
     width: 100%;
   }
   #experience .container-experience {
-    margin-left: 5px;
+    margin-left: 0% ;
   }
   #experience .experience-content-title {
     margin-bottom: 25px;
@@ -2429,15 +2425,17 @@ ul#nav li a:active {
   #experience .experience-box-description {
     width: 100%;
   }
+  #experience .experience-card:hover {
+    transform: translateX(0px);
+  }
   #experience .experience-content {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding-left: 40px;
   }
-
   #portfolio {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2449,7 +2447,7 @@ ul#nav li a:active {
   }
   #portfolio .portfolio-info {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 1rem;
+    padding-left: 0rem;
     padding-bottom: 1rem;
   }
   #portfolio .portfolio-content-title {
@@ -2461,9 +2459,8 @@ ul#nav li a:active {
   #portfolio .portfolio-content-title h1 {
     font-size: 1.8rem;
   }
-
   #contact {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2500,7 +2497,7 @@ ul#nav li a:active {
     justify-content: space-around;
   }
   .content-image {
-    left: 5px;
+    left: 15px;
   }
   header .banner-text {
     margin-top: 3rem;
@@ -2532,6 +2529,7 @@ ul#nav li a:active {
   }
   .skillContainer {
     margin-top: 0rem;
+    margin-bottom: 5rem;
   }
   .skillContainer h2 {
     font-size: 28px;
@@ -2541,9 +2539,8 @@ ul#nav li a:active {
     bottom: 70px;
     right: 20px;
   }
-
   #about {
-    margin: 0 10px;
+    margin: 0 15px;
   }
   #about .about-item {
     width: 100%;
@@ -2573,9 +2570,8 @@ ul#nav li a:active {
   #about .about-perfil {
     width: 200px;
   }
-
   #experience {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2583,7 +2579,7 @@ ul#nav li a:active {
     width: 100%;
   }
   #experience .container-experience {
-    margin-left: 5px;
+    margin-left: 0px;
   }
   #experience .experience-content-title {
     margin-bottom: 25px;
@@ -2600,15 +2596,17 @@ ul#nav li a:active {
   #experience .experience-box-description {
     width: 100%;
   }
+  #experience .experience-card:hover {
+    transform: translateX(0px);
+  }
   #experience .experience-content {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding-left: 40px;
   }
-
   #portfolio {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
@@ -2632,9 +2630,8 @@ ul#nav li a:active {
   #portfolio .portfolio-content-title h1 {
     font-size: 1.8rem;
   }
-
   #contact {
-    margin: 0 10px;
+    margin: 0 15px;
     padding-top: 2.9rem;
     padding-bottom: 3.8rem;
   }
