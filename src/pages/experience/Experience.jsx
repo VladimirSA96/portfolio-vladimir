@@ -35,7 +35,6 @@ const Experience = () => {
                     className={`timeline-marker ${index === 0 ? "active" : ""}`}
                     onClick={() => toggleExpand(experience.id)}
                   ></div>
-
                   <div
                     className="experience-card"
                     onClick={() => toggleExpand(experience.id)}
@@ -43,6 +42,7 @@ const Experience = () => {
                     <div className="experience-header">
                       <div className="experience-box-info">
                         <h3>{experience.title}</h3>
+                        <h5>{experience.service}</h5>
                         <p className="company">{experience.company}</p>
                         <span className="date">{experience.date}</span>
                       </div>

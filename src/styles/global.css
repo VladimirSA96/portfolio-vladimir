@@ -804,6 +804,13 @@ ul#nav li a:active {
   color: var(--color-white);
 }
 
+.experience-box-info h5 {
+  margin: 0;
+  font-size: 15px;
+  font-family: "poppins-regular", sans-serif;
+  color: var(--color-white);
+}
+
 .experience-box-info .company {
   margin: 5px 0;
   font-size: 16px;

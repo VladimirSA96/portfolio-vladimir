@@ -27,6 +27,53 @@ export const projects = [
   },
   {
     id: 2,
+    titleProject: "Simulador de Autos",
+    category: "web",
+    shortDesc: "Simulador de autos",
+    description: "El proyecto consiste en la creación de un simulador web con autos, aros y llantas, el cual el cliente puede escoger el modelo de auto, seleccionar los aros y llantas, además tomar captura del modelo y compartir a sus amistades por whatsapp. Asimismo esta adaptado a modo responsive mobile.",
+    image: "/assets/portfolio/simulador-autos.png",
+    technologies: [
+      { name: "Html", icon: "/assets/stacks/icon-html.png", color: "#E5532D" },
+      { name: "Css", icon: "/assets/stacks/icon-css.png", color: "#2750E6" },
+      { name: "JavaScript", icon: "/assets/stacks/icon-javascript.png", color: "#F7E025" }
+    ],
+    links: {
+      code: "#",
+      preview: "https://simulador.aroszehlendorf.com/"
+    },
+    features: [
+      "Compartir tu modelo por whatsapp",
+      "Tomar captura del modelo auto",
+      "Modelos de autos, aros y llantas",
+      "Interfaz moderna y responsive"
+    ]
+  },
+  {
+    id: 3,
+    titleProject: "Web Zehlendorf",
+    category: "web",
+    shortDesc: "CMS de la Web Zehlendorf Wheels",
+    description: "CMS de Wordpress del sitio web Zehlendorf Wheels el cual esta contenido por Home, Productos, Liquidación, Tienda, Catálogo, Empresa y Simulador, además tiene un buscador de aros y llantas.",
+    image: "/assets/portfolio/zehlendorf.png",
+    technologies: [
+      { name: "Wordpress", icon: "/assets/stacks/icon-wordpress.png", color: "#0027d3" },
+      { name: "Html", icon: "/assets/stacks/icon-html.png", color: "#E5532D" },
+      { name: "Css", icon: "/assets/stacks/icon-css.png", color: "#2750E6" },
+      { name: "CMS", icon: "/assets/stacks/icon-cms.png", color: "#c9c9c9" }
+    ],
+    links: {
+      code: "#",
+      preview: "https://aroszehlendorf.com/"
+    },
+    features: [
+      "Subida múltiple de archivos PDF",
+      "Procesamiento con IA",
+      "Autenticación de usuarios",
+      "Interfaz moderna y responsive"
+    ]
+  },
+  {
+    id: 4,
     titleProject: "Chat PDF AI SAAS",
     category: "saas",
     shortDesc: "SaaS con IA para analizar múltiples archivos PDF",
@@ -49,7 +96,7 @@ export const projects = [
     ]
   },
   {
-    id: 3,
+    id: 5,
     titleProject: "Edusity - Landing Page",
     category: "landing",
     shortDesc: "Landing page para plataforma educativa",
@@ -72,7 +119,7 @@ export const projects = [
     ]
   },
   {
-    id: 4,
+    id: 6,
     titleProject: "VirtualR",
     category: "landing",
     shortDesc: "Landing page con features, pricing y testimonials",
@@ -95,7 +142,7 @@ export const projects = [
     ]
   },
   {
-    id: 5,
+    id: 7,
     titleProject: "App Alzheimer",
     category: "app",
     shortDesc: "App móvil con ejercicios y rutinas para Alzheimer",
@@ -118,7 +165,7 @@ export const projects = [
     ]
   },
   {
-    id: 6,
+    id: 8,
     titleProject: "Portal Transparencia BN",
     category: "web",
     shortDesc: "Mejora UI/UX de plataforma de transparencia",
@@ -141,7 +188,7 @@ export const projects = [
     ]
   },
   {
-    id: 7,
+    id: 9,
     titleProject: "Florería Encantada",
     category: "web",
     shortDesc: "Tienda online de flores con delivery",
@@ -164,7 +211,7 @@ export const projects = [
     ]
   },
   {
-    id: 8,
+    id: 10,
     titleProject: "AG Transporte & Serv",
     category: "web",
     shortDesc: "Web corporativa de transporte refrigerado",
@@ -187,7 +234,7 @@ export const projects = [
     ]
   },
   {
-    id: 9,
+    id: 11,
     titleProject: "Anyero",
     category: "web",
     shortDesc: "Catálogo de productos online",
@@ -210,7 +257,7 @@ export const projects = [
     ]
   },
   {
-    id: 10,
+    id: 12,
     titleProject: "TODOs App",
     category: "app",
     shortDesc: "Aplicación de gestión de tareas",
