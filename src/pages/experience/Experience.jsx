@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../components/Navbar";
 import iconExperience from "/assets/iconos/icon-experience.svg";
-import { experiences } from "../../data/info";
+import { experiences } from "../../data/experience";
 
 const Experience = () => {
   const [expandedId, setExpandedId] = useState(null);
