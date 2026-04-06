@@ -39,7 +39,7 @@ const About = () => {
                   programación,{" "}
                   <span>
                     mis stack favoritos son JavaScript, React, React Native,
-                    NextJS, Android y MySQL.
+                    NextJS, NodeJS, MySQL y PostgreSQL.
                   </span>
                 </p>
                 <p>
