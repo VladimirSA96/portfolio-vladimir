@@ -1,6 +1,32 @@
 export const projects = [
   {
     id: 1,
+    titleProject: "Pagape",
+    category: "saas",
+    shortDesc: "SaaS para gestionar gastos en eventos",
+    description: "El proyecto consiste en la creación de un SaaS que ayuda a gestionar gastos en reuniones, cumpleaños y eventos familiares, lo que facilita el calculo justo de cada individuo por consumo, además tiene tambien el modo cumpleaños, donde el cumpleañero no paga y el sistema ajusta automáticamente la cuenta para los invitados.",
+    image: "/assets/portfolio/pagape.png",
+    technologies: [
+      { name: "Next.js", icon: "/assets/stacks/icon-next.png", color: "#000" },
+      { name: "React", icon: "/assets/stacks/icon-react.png", color: "#61DAFB" },
+      { name: "TailwindCSS", icon: "/assets/stacks/icon-tailwindcss.png", color: "#38BDF8" },
+      { name: "Recharts", icon: "/assets/stacks/icon-react.png", color: "#0D5D92" },
+      { name: "Lucide", icon: "/assets/stacks/icon-lucide.svg", color: "#DC5A5A" },
+      { name: "MySQL", icon: "/assets/stacks/icon-mysql.png", color: "#3E6E93" },
+    ],
+    links: {
+      code: "https://github.com/VladimirSA96/pagape",
+      preview: "https://pagape.vercel.app/"
+    },
+    features: [
+      "Gestiona eventos por usuario",
+      "Dividir cuenta sin estrés",
+      "Autenticación de usuarios",
+      "Interfaz moderna y responsive"
+    ]
+  },
+  {
+    id: 2,
     titleProject: "Chat PDF AI SAAS",
     category: "saas",
     shortDesc: "SaaS con IA para analizar múltiples archivos PDF",
@@ -23,7 +49,7 @@ export const projects = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     titleProject: "Edusity - Landing Page",
     category: "landing",
     shortDesc: "Landing page para plataforma educativa",
@@ -46,7 +72,7 @@ export const projects = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     titleProject: "VirtualR",
     category: "landing",
     shortDesc: "Landing page con features, pricing y testimonials",
@@ -69,7 +95,7 @@ export const projects = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     titleProject: "App Alzheimer",
     category: "app",
     shortDesc: "App móvil con ejercicios y rutinas para Alzheimer",
@@ -81,8 +107,8 @@ export const projects = [
       { name: "CSS3", icon: "/assets/stacks/icon-css.png", color: "#264DE4" }
     ],
     links: {
-      code: "https://github.com/vladi965/landingPage_VirtualR",
-      preview: "https://landing-page-virtual-r.vercel.app/"
+      code: "#",
+      preview: "#"
     },
     features: [
       "Ejercicios cognitivos",
@@ -92,7 +118,7 @@ export const projects = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     titleProject: "Portal Transparencia BN",
     category: "web",
     shortDesc: "Mejora UI/UX de plataforma de transparencia",
@@ -115,7 +141,7 @@ export const projects = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     titleProject: "Florería Encantada",
     category: "web",
     shortDesc: "Tienda online de flores con delivery",
@@ -138,7 +164,7 @@ export const projects = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     titleProject: "AG Transporte & Serv",
     category: "web",
     shortDesc: "Web corporativa de transporte refrigerado",
@@ -151,7 +177,7 @@ export const projects = [
     ],
     links: {
       code: "https://github.com/vladi965/Pagina-Web-AG",
-      preview: "https://ag-transporte-refrigerado.vercel.app/"
+      preview: "https://agtransporterefrigerado.com/"
     },
     features: [
       "Información de flota",
@@ -161,7 +187,7 @@ export const projects = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     titleProject: "Anyero",
     category: "web",
     shortDesc: "Catálogo de productos online",
@@ -184,7 +210,7 @@ export const projects = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     titleProject: "TODOs App",
     category: "app",
     shortDesc: "Aplicación de gestión de tareas",
