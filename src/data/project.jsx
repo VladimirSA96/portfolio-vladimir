@@ -25,8 +25,29 @@ export const projects = [
       "Interfaz moderna y responsive"
     ]
   },
-  {
+   {
     id: 2,
+    titleProject: "Jackets",
+    category: "landing",
+    shortDesc: "Landing page jacket Nike",
+    description: "El proyecto consiste en la creación de una landing page de ecommerce jacket con la marca Nike, además tiene una animación slider con GSAP y tambien cambia su infomación respectivo con el precio.",
+    image: "/assets/portfolio/website-jackets.png",
+    technologies: [
+      { name: "HTML5", icon: "/assets/stacks/icon-html.png", color: "#E34F26" },
+      { name: "CSS3", icon: "/assets/stacks/icon-css.png", color: "#264DE4" },
+      { name: "JavaScript", icon: "/assets/stacks/icon-javascript.png", color: "#F7DF1E" }
+    ],
+    links: {
+      code: "https://github.com/VladimirSA96/responsive-jacket-landing-page",
+      preview: "https://vladimirsa96.github.io/responsive-jacket-landing-page/"
+    },
+    features: [
+      "Animación dinamico con GSAP",
+      "Interfaz moderna y responsive"
+    ]
+  },
+  {
+    id: 3,
     titleProject: "Simulador de Autos",
     category: "web",
     shortDesc: "Simulador de autos",
@@ -49,7 +70,7 @@ export const projects = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     titleProject: "Web Zehlendorf",
     category: "web",
     shortDesc: "CMS de la Web Zehlendorf Wheels",
@@ -73,7 +94,7 @@ export const projects = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     titleProject: "Chat PDF AI SAAS",
     category: "saas",
     shortDesc: "SaaS con IA para analizar múltiples archivos PDF",
@@ -96,7 +117,7 @@ export const projects = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     titleProject: "Edusity - Landing Page",
     category: "landing",
     shortDesc: "Landing page para plataforma educativa",
@@ -119,7 +140,7 @@ export const projects = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     titleProject: "VirtualR",
     category: "landing",
     shortDesc: "Landing page con features, pricing y testimonials",
@@ -142,7 +163,7 @@ export const projects = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     titleProject: "App Alzheimer",
     category: "app",
     shortDesc: "App móvil con ejercicios y rutinas para Alzheimer",
@@ -165,7 +186,7 @@ export const projects = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     titleProject: "Portal Transparencia BN",
     category: "web",
     shortDesc: "Mejora UI/UX de plataforma de transparencia",
@@ -188,7 +209,7 @@ export const projects = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     titleProject: "Florería Encantada",
     category: "web",
     shortDesc: "Tienda online de flores con delivery",
@@ -211,7 +232,7 @@ export const projects = [
     ]
   },
   {
-    id: 10,
+    id: 11,
     titleProject: "AG Transporte & Serv",
     category: "web",
     shortDesc: "Web corporativa de transporte refrigerado",
@@ -234,7 +255,7 @@ export const projects = [
     ]
   },
   {
-    id: 11,
+    id: 12,
     titleProject: "Anyero",
     category: "web",
     shortDesc: "Catálogo de productos online",
@@ -257,7 +278,7 @@ export const projects = [
     ]
   },
   {
-    id: 12,
+    id: 13,
     titleProject: "TODOs App",
     category: "app",
     shortDesc: "Aplicación de gestión de tareas",
